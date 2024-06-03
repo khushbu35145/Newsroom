@@ -1,0 +1,578 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    color: inherit;
+    box-sizing: border-box;
+    list-style: none;
+}
+header{
+    width: 100%;
+}
+.main{
+     width: 100%;
+     height: 87px;
+     background-color: white;
+     display: flex;
+     justify-content: space-evenly;
+     border-bottom: .05px solid #999;
+     z-index: 1;
+     align-items: center;
+     position: relative;
+     position: fixed;
+     top: 0px;
+     left: 0px;   
+}
+.logo{
+    position: absolute;
+    left: 30px;
+} 
+    
+.nav{
+margin-right: 320px;
+}
+.nav ul li:hover .megamenu{      
+     opacity: 1;
+    visibility: visible;
+   }
+   .megamenu{
+    position: absolute;
+    top: 110%;
+    left: 0px;
+    height: 100vh;
+    padding: 0 10px 10px 15px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    opacity: 0px;
+    visibility: hidden;
+    padding-top: 20px;
+    padding-bottom: 90px;
+    cursor: pointer;
+} 
+.menu_img{
+    margin-left: 184px; 
+}
+.megamenu_items{
+    display: flex;
+    margin-left: 184px;
+   
+} 
+.megamenu_items h3{
+    font-family: 'Optimistic Display', 'NotoSans', 'NotoSansJP', 'NotoSansKR', sans-serif;
+    font-weight: 700 !important;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: .8px !important;
+    color: #344854;
+    margin-bottom: 20px;
+} 
+.megamenu_items p{
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    font-family: 'Optimistic Display', Helvetica, Arial, sans-serif;
+    margin-bottom: 10px;
+}
+.megamenu_items1{
+    margin-right: 90px;
+}
+.megamenu2{
+    position: absolute;
+    top: 110%;
+    left: 0px;
+    height: 333px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .05);
+    display: flex;
+    justify-content: space-around;
+    opacity: 0px;
+    visibility: hidden;
+    padding-top: 20px;
+    padding-bottom: 90px;
+    cursor: pointer;
+}
+
+.nav ul li:hover .megamenu2{      
+    opacity: 1;
+   visibility: visible;
+  }
+  .megamenu2 h3{
+    font-family: 'Optimistic Display', 'NotoSans', 'NotoSansJP', 'NotoSansKR', sans-serif;
+    font-weight: 700 !important;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: .8px !important;
+    color: #344854;
+    margin-bottom: 20px;
+  } 
+  .megamenu2 p{
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    font-family: 'Optimistic Display', Helvetica, Arial, sans-serif;
+    margin-bottom: 10px;
+}
+.megamenu3{
+    position: absolute;
+    top: 110%;
+    left: 0px;
+    height: 150px;
+    padding: 0 10px 10px 15px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .05);
+    display: flex;
+    justify-content: space-around;
+    opacity: 0px;
+    visibility: hidden;
+    padding-top: 20px;
+    padding-right: 184px;
+    padding-left: 89px;
+    padding-bottom: 90px;
+    cursor: pointer;
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    font-family: 'Optimistic Display', Helvetica, Arial, sans-serif;
+    margin-bottom: 10px;
+} 
+.nav ul li:hover .megamenu3{      
+    opacity: 1;
+   visibility: visible;
+  }
+.megamenu4{
+    position: absolute;
+    top: 110%;
+    left: 0px;
+    height: 240px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .05);
+    display: flex;
+    justify-content: space-around;
+    opacity: 0px;
+    visibility: hidden;
+    padding-top: 20px;
+    padding-bottom: 90px;
+    cursor: pointer;
+} 
+.nav ul li:hover .megamenu4{      
+    opacity: 1;
+   visibility: visible;
+  }
+.megamenu4 p{
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    font-family: 'Optimistic Display', Helvetica, Arial, sans-serif;
+    margin-bottom: 10px;
+}
+ .nav ul{
+    display: flex;  
+}
+.nav ul li{
+    margin-right: 18px;
+    margin-left: 18px;
+    font-size: 16px;
+    font-family: 'Optimistic Text', sans-serif;
+    font-weight: 500 !important;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    cursor: pointer;
+    background: 0 0;
+    border-radius: 0;
+    box-shadow: none;
+    color: #000;      
+}
+a{
+    position: relative;
+}
+ a::after{
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 25px;
+    height: 1.5px;
+    width:  0px;
+    background-color:  #007aff;
+    transition: 0.3s;
+}
+@keyframes border-bottom{
+    0%{width:0px; height: 0px;}
+    100%{width:80px; height: 0px;}
+    
+}
+
+ a:hover::after{
+    width: 100%;
+}
+
+.nav ul li i{
+    transform: rotate(0deg);
+    transition: 1s;
+    font-size: 10px;
+}
+.nav ul li:hover i{
+    transform: rotate(-180deg);
+}
+.support{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    text-align: center;
+    right: 10px;
+    color: #000;
+    margin-right: 18px;
+    margin-left: 18px;
+    font-size: 16px;
+    font-family: 'Optimistic Text', sans-serif;
+    font-weight: 400 !important;
+    line-height: 1.5;
+    cursor: pointer;
+}
+.support i:first-child{
+    transform: rotate(0deg);
+    transition: 1s;
+    font-size: 10px;
+    margin-left: 5px;
+}
+.support:hover i:first-child{
+    transform: rotate(-180deg);
+}
+.support h3{
+    color: #000;
+    font-size: 16px;
+    font-family: 'Optimistic Text', sans-serif;
+    font-weight: 400 !important;
+    margin-right: 40px;
+}
+.newsroom{
+    font-family: 'Optimistic Display', 'NotoSans', 'NotoSansJP', 'NotoSansKR', sans-serif;
+    font-weight: 400 !important;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: 2.2px !important;
+    color: #666;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+.top{
+    font-family: 'Optimistic Display', 'NotoSans', 'NotoSansJP', 'NotoSansKR', sans-serif;
+    font-weight: 600 !important;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 3.6px !important;
+    text-transform: uppercase;
+    color: #666;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.middle{
+    display: flex;
+    margin: 30px 50px;
+    font-family: 'Optimistic Display', 'NotoSans', 'NotoSansJP', 'NotoSansKR', sans-serif;
+}
+.middle-content1{
+    display: flex;
+    margin-bottom: 30px;
+
+}
+.middle-content{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.middle-content2{
+    display: flex;
+    flex-direction: column;
+}
+.middle1{
+    display: flex;
+    flex-direction: column;
+
+}
+.middle-img{
+ 
+    background-image: url(https://about.fb.com/wp-content/uploads/2024/04/Meta-AI-Expasion_Thumbnail-1.gif?fit=1440%2C1080);
+    height: 400px;
+    width: 600px;
+    background-size: cover;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+.middle-img:hover{
+border-radius: 0px;
+}
+.img2{
+    background: url(https://about.fb.com/wp-content/uploads/2024/05/Future-of-FB_Thumbnail.gif?fit=960%2C720);
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 10px;
+   
+}
+.img3{
+    background: url(	https://about.fb.com/wp-content/uploads/2024/05/Alo-on-Quest_Thumbnail.jpg?fit=1440%2C1080);
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 10px;
+}
+.img4{
+    background: url(https://about.fb.com/wp-content/uploads/2024/05/Llama-Use-Case_Thumbnail-1.jpg?fit=1440%2C1080);
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 10px;
+}
+.mid2{
+    background-color: #8c8f94;
+    position: relative;
+}
+.mid2-img{
+    width: 50%;
+    height: 500px;
+    background: url(https://about.fb.com/wp-content/uploads/2024/04/10-Years-of-Reality-Labs_Thumbnail.gif?fit=960%2C720);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0px;
+}
+.middle-content2-word h3{
+    display: inline-block;
+    padding-bottom: 3px;
+    border-bottom: 2px solid #4424b8;
+    font-size: 1.125rem;
+    font-weight: 400;
+    letter-spacing: .06em;
+    color: #232323;
+    margin-top: 20px;
+    
+
+}
+.middle-content2-word h2 {
+    font-size: 36px;
+    color: #000;
+    font-weight: 400;
+    line-height: 43px;
+    letter-spacing: 1.8px !important;
+    font-family: 'Optimistic Display', 'NotoSans', 'NotoSansJP', 'NotoSansKR', sans-serif;
+    cursor: pointer;
+
+}
+
+.middle-content2-word p{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 5px;
+    color: #666;
+    letter-spacing: .05em;
+    font-family: 'Optimistic Display', 'NotoSans', 'NotoSansJP', 'NotoSansKR', sans-serif;
+}
+.middle-content3-word h3{
+    display: inline-block;
+    padding-bottom: 3px;
+    border-bottom: 2px solid #1877e9;
+    font-size: 1.125rem;
+    font-weight: 400;
+    letter-spacing: .06em;
+    color: #232323;
+    margin-top: 10px;
+    margin-bottom: 14px;
+    font-family: 'Optimistic Display', 'NotoSans', 'NotoSansJP', 'NotoSansKR', sans-serif;
+
+}
+.middle-content3-word h2{
+    font-family: 'Optimistic Display', 'NotoSans', 'NotoSansJP', 'NotoSansKR', sans-serif;
+    font-weight: 500 !important;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 1.2px !important;
+    color: black;
+
+}
+.middle-content3-word p{
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color:#666;
+    letter-spacing: .05em;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 400;
+    font-family: 'Optimistic Display', 'NotoSans', 'NotoSansJP', 'NotoSansKR', sans-serif;
+}
+.last-header{
+    width: 100%;
+    display: flex;
+}
+.last-headerleft{
+    width: 50%;
+    background-color:#f1f4f7 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.last-headerright{
+    width: 50%;
+    height: 500px;
+    background: url(https://about.fb.com/wp-content/uploads/2024/04/10-Years-of-Reality-Labs_Thumbnail.gif?fit=960%2C720);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+footer{
+    width: 100%;
+    margin-top: 150px;
+    font-family: 'Optimistic Display', 'NotoSans', 'NotoSansJP', 'NotoSansKR', sans-serif;
+}
+
+.footer1{
+    margin-left: 50px;
+}
+
+
+.footer1 h3{
+    display: block;
+    margin: 11px 0;
+    font-size: 14px;
+    color: #333;
+    font-weight: 800;
+    
+}
+.footer2{
+    margin-left: 50px;
+}
+.footer2 h3{
+    font-size: 18px;
+    font-weight: 600;
+    color: #677b8c;
+    margin: 10px 0px;
+    text-transform: capitalize;
+    letter-spacing: .05rem;
+    line-height: 1.5;
+    
+}
+.footer2 p{
+    margin: 11px 0;
+    font-size: 14px;
+    cursor: pointer;
+    letter-spacing: .05rem;
+    color: #333;
+    line-height: 1.5;
+    font-weight: 400;
+}
+.footer3{
+    height:100px;
+    width: 100%;
+    background-color: #f1f2f4;
+    font-size: 14px;
+    color: #3a3a3a;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer4{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+.footer4fst{
+    margin-left: -100px;
+
+}
+.footer4sec h3{
+    color: #344854;
+    font-weight: 700 !important;
+    margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: .8px !important;
+}
+.footer4sec p{
+    padding: 6px 0;
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #222;
+    cursor: pointer;
+}
+.footer4thir h3{
+    color: #344854;
+    font-weight: 700 !important;
+    margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: .8px !important;
+}
+.footer4thir p{
+    padding: 6px 0;
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #222;
+    cursor: pointer;
+}
+.footer4for h3{
+    color: #344854;
+    font-weight: 700 !important;
+    margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: .8px !important;
+}
+.footer4for p{
+    padding: 6px 0;
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #222;
+    cursor: pointer;
+}
+.logo1{
+    margin-top: -50px;
+}
+.icons img{
+    margin-left: 5px;
+}
+.footer_last{
+    padding: 6px 0;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #222;
+    cursor: pointer; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.footer_last a{
+    margin-left: 20px;
+}
+.footer_last p{
+    margin-right: 15px;
+}
